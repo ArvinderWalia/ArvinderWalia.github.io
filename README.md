@@ -119,11 +119,11 @@ print("Hi there")
 >>>>> One.
 
 ## Collapsible content
-   <details>
+<details>
           <summary>Click to see more!</summary>
           
             ## More awesoms tips!
 
             - item 1 
             - item 2
-    </details>
+</details>
