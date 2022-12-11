@@ -1,13 +1,14 @@
 # heading 1
 ## heading 2
 ### heading 3
-### heading 4
-#### heading 5
+#### heading 4
+##### heading 5
+###### heading 6
 
 <!-- Italics -->
 *this text is italics*
 
-_italic_
+_this text is also italics_
 
 <!-- Bold -->
 **bold**
@@ -121,7 +122,7 @@ print("Hi there")
 ## Collapsible content
 <details>
    <summary>Click to see more!</summary>
-   More awesoms tips!
+   More awesoms tips!  
    - item 1
    - item 2
 </details>
