@@ -67,8 +67,7 @@ ___
 <!-- Bash script block -->
 
 ```bash
-    npm install
-    
+npm install
 ```
 ### JS code block
 
