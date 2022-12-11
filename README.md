@@ -127,8 +127,8 @@ print("Hi there")
 
 ## Collapsible content
 <details>
-<summary>Click to see more!</summary>
-More awesoms tips!  
-- item 1
-- item 2     
+   <summary>Click to see more!</summary>
+   More awesoms tips!
+   - item 1
+   - item 2
 </details>
