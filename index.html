@@ -10,12 +10,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <script>
-    function Auto_Play() {
+    <!-- Hides the video on page loadup-->
+    function Auto_Hide() {
         document.getElementById("SesameStreet1").style.display = "none";
      }
+    <!-- Plays the video on click and pauses + hides the video on clicking again-->
     function Play_Click() {
         if (document.getElementById("SesameStreet1").style.display == "none") {
             document.getElementById("SesameStreet1").style.display = "block";
+            document.getElementById("SesameStreet1").play();
         }
         else {
             document.getElementById("SesameStreet1").style.display = "none";
@@ -25,7 +28,7 @@
     </script>
     	
    </head>
-<body onload="Auto_Play()">
+<body onload="Auto_Hide()">
   <nav>
     <div class="navbar">
       <div class="logo"><a href="#">Sesame Street</a></div>
@@ -66,7 +69,7 @@
      <table>
      <tr>
       <td><p>Sesame Street is an iconic American children's television show that has been airing since 1969. It is produced by the Sesame Workshop and shown on public broadcasting stations in the United States, as well as in over 150 other countries. The show is known for its educational content, which includes lessons about numbers, letters, and social skills.<br><br><b>CLICK ON TOP RIGHT!!!</b></p></td>
-      <td><img src="CoverImage.jpg" alt="Sesame Street" style="width:350px;height:300px;"></td>
+      <td><img src="CoverImage.jpg" alt="Sesame Street"></td>
      </tr>
      </table>
       </div>
